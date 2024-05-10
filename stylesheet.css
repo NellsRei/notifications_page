@@ -1,32 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    padding: 0;
+    font-family: Plus Jakarta Sans;
+    
+}
+
 .body{
     align-items: center;
     padding: 100px;
 }
 .header{
-    
-    border: 2px solid blue;
-
-    align-items: middle;
     display: flex;
+    align-items: center;
+    padding-top: 0;
     
-    border-color: aquamarine;
-    
-    
-}
-.h1{
-    color: black;
-    justify-content: center;
 }
 .container {
+    display: flex;
     padding: 0;
-    border: 2px  blue;
-    width: 80%;
     align-items: center;
     justify-content: center;
+    padding-bottom:2rem;
+    padding-top: 3rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    background-color: hsl(210, 60%, 98%);
+    
 }
-*{
-    padding: 0;
+.notif-container{
+    justify-content: center;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color:  hsl(0, 0%, 100%);
+    width: 70%;
+    height: 70%;
+    
 }
+
+.user{
+    font-weight: bold;
+}
+
+.image, .text-content {
+    flex: 0 0 auto; 
+}
+
+.notif-text p {
+    text-align: right;
+    padding-top: 1rem;
+    font-weight: lighter;
+    padding-left: 21rem;
+    padding-right: 1rem;
+    font-size: 60%;
+}
+
+
 .main{
     display: flex;
     flex-direction: column;
@@ -35,6 +68,131 @@
     justify-content: center;
 }
 .main-right{
-    align-items: flex-start;
+    float: left;
+}
+.main-left{
+    float: right;
+}
+.unread{
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
     
+}
+.one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    padding-left: 1rem;
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+  }
+.two{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+}
+.text-content{
+    text-align: left;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-content-two{
+    text-align: left;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+
+}
+.private{
+    padding-left: 2rem;
+    border-radius: 2rem;
+    margin-top: 2px;
+}
+.rizky{
+    width: 550px; 
+    height: 60px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: left; 
+    padding-top: 3px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: hsl(210, 60%, 98%);
+    padding-right: 2rem;
+    font-size: 17px;
+    padding-top: 1rem;
+}
+.image{
+    padding-top: 0px;
+}
+.count{
+    border-radius: 5px;
+    background-color: hsl(219, 85%, 26%);
+    font-size: small;
+    padding-bottom: 0.2rem;
+    padding-top: 0.3rem;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    align-content: center;
+    
+}
+.notification{
+    display: flex;
+    font-size: x-large;
+    
+    padding-right: 10px;
+    align-items: flex-start;
+
+}
+.image{
+    width: 60px;
+}
+.time{
+    font-weight: lighter;
+    
+}
+.title{
+    padding-right: 3rem;
+    font-weight: 800;
+}
+.bold{
+    font-weight: 700;
+    float: right;
+    padding-left: 0.5rem;
+}
+.dot{
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    border-radius: 50%; 
+    display: inline-block; 
+    
+}
+.text{
+    padding-right: 0.5rem;
+}
+.image-two{
+    padding-bottom: 7rem;
+    width: 60px;
+    height: 60px;
+}
+.read{
+    padding-left: 0.5rem;
+}
+.kim{
+    float: right;
+    padding-left: 20rem;
 }
